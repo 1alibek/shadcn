@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <header className="bg-gray-900 text-white p-4 flex items-center justify-between">
       <div className="flex items-center space-x-6">
-        <a href="/" className="text-xl font-semibold">
+        <Link href="/" className="text-xl font-semibold">
           <span className="text-blue-400">/</span> shadcn/ui
-        </a>
+        </Link>
         <nav className="flex space-x-6">
           <Link href="/docs" className="hover:text-gray-300">Docs</Link>
           <Link href="/components" className="hover:text-gray-300">Components</Link>
@@ -26,9 +26,9 @@ const Header = () => {
           />
           <span className="absolute left-2 top-2 text-gray-400">🔍</span>
         </div>
-        <a href="https://github.com/shadcn/ui" target="_blank" rel="noopener noreferrer">
+        <Link href="https://github.com/shadcn/ui" target="_blank" rel="noopener noreferrer">
           <span className="text-gray-400 hover:text-gray-300">🌐</span>
-        </a>
+        </Link>
         <button className="text-gray-400 hover:text-gray-300">
           <span>🌙</span>
         </button>
