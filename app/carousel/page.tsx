@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"; // Adjust path if needed
+import Link from "next/link";
 
 export default function CarouselPage() {
   const slides = [
@@ -26,8 +27,8 @@ export default function CarouselPage() {
           <p className="text-gray-400">A carousel with motion and swipe built using Embla.</p>
         </div>
         <div className="flex space-x-2">
-          <a href="/docs" className="text-gray-400 hover:text-white">Docs</a>
-          <a href="/api-reference" className="text-gray-400 hover:text-white">API Reference</a>
+          <Link href="/docs" className="text-gray-400 hover:text-white">Docs</Link>
+          <Link href="/api-reference" className="text-gray-400 hover:text-white">API Reference</Link>
         </div>
       </div>
 
@@ -74,17 +75,17 @@ export default function CarouselPage() {
         <div className="mt-6 text-gray-400">
           <h3 className="text-lg font-semibold mb-2">On This Page</h3>
           <ul className="space-y-1">
-            <li><a href="#about" className="hover:text-white">About</a></li>
-            <li><a href="#installation" className="hover:text-white">Installation</a></li>
-            <li><a href="#usage" className="hover:text-white">Usage</a></li>
-            <li><a href="#examples" className="hover:text-white">Examples</a></li>
-            <li><a href="#sizes" className="hover:text-white">Sizes</a></li>
-            <li><a href="#spacing" className="hover:text-white">Spacing</a></li>
-            <li><a href="#orientation" className="hover:text-white">Orientation</a></li>
-            <li><a href="#options" className="hover:text-white">Options</a></li>
-            <li><a href="#api" className="hover:text-white">API</a></li>
-            <li><a href="#events" className="hover:text-white">Events</a></li>
-            <li><a href="#plugins" className="hover:text-white">Plugins</a></li>
+            <li><Link href="#about" className="hover:text-white">About</Link></li>
+            <li><Link href="#installation" className="hover:text-white">Installation</Link></li>
+            <li><Link href="#usage" className="hover:text-white">Usage</Link></li>
+            <li><Link href="#examples" className="hover:text-white">Examples</Link></li>
+            <li><Link href="#sizes" className="hover:text-white">Sizes</Link></li>
+            <li><Link href="#spacing" className="hover:text-white">Spacing</Link></li>
+            <li><Link href="#orientation" className="hover:text-white">Orientation</Link></li>
+            <li><Link href="#options" className="hover:text-white">Options</Link></li>
+            <li><Link href="#api" className="hover:text-white">API</Link></li>
+            <li><Link href="#events" className="hover:text-white">Events</Link></li>
+            <li><Link href="#plugins" className="hover:text-white">Plugins</Link></li>
           </ul>
         </div>
       </div>

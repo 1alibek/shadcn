@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 export default function CheckboxPage() {
@@ -12,8 +13,8 @@ export default function CheckboxPage() {
             <p className="text-gray-400">A control that allows the user to toggle between checked and not checked.</p>
           </div>
           <div className="flex space-x-2">
-            <a href="/docs" className="text-gray-400 hover:text-white">Docs</a>
-            <a href="/api-reference" className="text-gray-400 hover:text-white">API Reference</a>
+            <Link href="/docs" className="text-gray-400 hover:text-white">Docs</Link>
+            <Link href="/api-reference" className="text-gray-400 hover:text-white">API Reference</Link>
           </div>
         </div>
 
