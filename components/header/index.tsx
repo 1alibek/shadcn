@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Header = () => {
@@ -8,12 +9,12 @@ const Header = () => {
           <span className="text-blue-400">/</span> shadcn/ui
         </a>
         <nav className="flex space-x-6">
-          <a href="/docs" className="hover:text-gray-300">Docs</a>
-          <a href="/components" className="hover:text-gray-300">Components</a>
-          <a href="/blocks" className="hover:text-gray-300">Blocks</a>
-          <a href="/charts" className="hover:text-gray-300">Charts</a>
-          <a href="/themes" className="hover:text-gray-300">Themes</a>
-          <a href="/colors" className="hover:text-gray-300">Colors</a>
+          <Link href="/docs" className="hover:text-gray-300">Docs</Link>
+          <Link href="/components" className="hover:text-gray-300">Components</Link>
+          <Link href="/blocks" className="hover:text-gray-300">Blocks</Link>
+          <Link href="/charts" className="hover:text-gray-300">Charts</Link>
+          <Link href="/themes" className="hover:text-gray-300">Themes</Link>
+          <Link href="/colors" className="hover:text-gray-300">Colors</Link>
         </nav>
       </div>
       <div className="flex items-center space-x-4">

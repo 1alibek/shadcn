@@ -62,7 +62,7 @@ export default function CheckboxPage() {
 
           <h3 className="text-lg font-semibold mb-2 mt-6">Usage</h3>
           <div className="bg-gray-800 p-3 rounded">
-            <code className="text-red-400">import  Checkbox  from "@/components/ui/checkbox"</code>
+            <code className="text-red-400">import  Checkbox  from @/components/ui/checkbox</code>
           </div>
    
 
